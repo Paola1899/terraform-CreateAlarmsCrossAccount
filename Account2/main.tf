@@ -6,9 +6,6 @@ provider "aws" {
           CreatedBy = "Terraform"
         }
     }
-    
-    access_key = "AKIA6IAZ5P5KSGDVDRKL"
-    secret_key = "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"
 }
 
 variable "sqs_event" {}
